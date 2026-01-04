@@ -6,7 +6,7 @@ const MyDialog = ({ show, proceed, message }) => (
     <div className="dialog">
       <p>{message}</p>
       <div className="dialog-footer">
-        <button onClick={() => proceed(true)}>Chắc</button>
+        <button onClick={() => proceed(true)}>OK</button>
         <button onClick={() => proceed(false)}>No</button>
       </div>
     </div>
